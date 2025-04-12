@@ -28,11 +28,11 @@ A modern web application that scans your movies directory, fetches metadata from
    ```
 3. Install dependencies:
    ```
-   pip install flask requests python-dotenv
+   pip install -r requirements.txt
    ```
 4. Run the application:
    ```
-   python app.py
+   flask run
    ```
 5. Open your browser and navigate to `http://localhost:5000`
 
@@ -51,11 +51,6 @@ Example: `The Matrix (1999)`
 - If no movies appear, check that your MOVIES_PATH is correct
 - Verify that your OMDB API key is valid
 - Check console output for any error messages
-
-## Version History
-
-- 2.0.0 (2025) - Upgraded to Bootstrap 5, jQuery 3, and modern Flask patterns
-- 1.0.0 - Initial release
 
 ## License
 
